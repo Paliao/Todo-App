@@ -1,2 +1,4 @@
-node_modules
-*.log
+/Backend/node_modules
+/Backend/*.log
+/frontend/node_modules
+/frontend/*.log

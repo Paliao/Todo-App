@@ -2,3 +2,5 @@
 /Backend/*.log
 /frontend/node_modules
 /frontend/*.log
+/frontend-redux/node_modules
+/frontend-redux/*.log

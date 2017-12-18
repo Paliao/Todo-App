@@ -14,3 +14,11 @@ export const search = () => {
     payload: request
   }
 }
+
+export const add = description => {
+  return dispatch => {
+    Axios.post(URL, { description })
+      .then(resp => dispatch({type: 'TODO_ADDED', payload: resp.data}))
+      .then(resp => dispatch(search())) 
+  }
+}
